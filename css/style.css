@@ -19,7 +19,7 @@ header {
 
 main {
   font-family: "Lato", Helvetica, sans-serif;
-  margin: 30px;
+  margin: 10px 60px;
 }
 
 h1 {
@@ -34,7 +34,7 @@ img {
   margin-right: 20px;
   float: right;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(5, 3, 3, 15);
   height: 250px;
   width: auto;
 }
@@ -51,3 +51,7 @@ footer p {
 footer p a {
   color: white;
 }
+
+footer p last-updated { 
+  color: yellow; 
+} 
