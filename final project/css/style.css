@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+
+html {
+  background-color: #2B2118;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-size: 25px;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: #2B2118;
+}
+
+.nav {
+  background-color: #6F1A07;
+  margin: 0;
+  padding: 0em;
+  line-height: .5em;
+  font-size: 1em;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;  
+  padding: 0;
+}
+
+.nav ul li {
+  list-style: none;
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: .8rem;
+  padding: 1rem;
+  clear: both;
+}
+
+.nav a {
+  padding: 1em;
+  min-width: 70px
+}
+
+.nav a:link{
+  color: #ECF0F1;
+}
+
+.nav a:visited {
+  color: lightgray;
+}
+
+.nav a:hover {
+  color: #0000ff;
+  background-color: white;
+}
+
+.header {
+  background-color: #A8763E;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.picture {
+  width: 100px;
+  height: auto;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h1 {
+  font-size: 2em;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.motto {
+  font-style: italic;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1.5pt;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
+.h2-headings {
+  font-size: 1em;
+  color: #000000;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.body-parapgraph {
+    font-family: "Lato", Helvetica, sans-serif;
+    color: #000000;
+    margin-bottom: 6em;
+}
+
+.banner-box {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-box-img {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 47.25% 5% 47.25%;
+  grid-template-rows: 70px 30px 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.trail-grid {
+  display: grid;
+  grid-template-columns: 47.25% 5% 47.25%;
+  grid-template-rows: 70px 30px 1fr 40px 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.contactus-grid {
+  display: grid;
+  grid-template-columns: 47.25% 5% 47.25%;
+  grid-template-rows: 70px 50px 150px 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.home-right-img, .trail-right-img, .trail-left-img, .contactus-right-img {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.home-title, .trail-title, .contactus-title { 
+  grid-column: 1 / 4; 
+  grid-row: 1 / 2;
+  margin: 0;
+  text-align: center;
+}
+
+.home-headline-1, .trail-headline-1, .contactus-headline-1 { 
+  grid-column: 1 / 2; 
+  grid-row: 2 / 3;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.home-paragraph-1, .trail-paragraph-1, .contactus-paragraph-1 { 
+  grid-column: 1 / 2; 
+  grid-row: 3 / 4;
+  margin: 30px 0 0 20px;
+}
+.contactus-form {
+  grid-column: 1 / 2; 
+  grid-row: 4 / 5;
+  margin: 30px 0 0 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#submit_button {
+  background-color: #A8763E;
+  height: 30px;
+  width: 20%;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+input, textarea {
+  background-color: #D3D3D3;
+  color: #2F4F4F;
+  width: 250px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px 2px #696969;
+}
+
+.home-right-img, .trail-right-img { 
+  grid-column: 3 / 4; 
+  grid-row: 2 / 4;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.contactus-right-img { 
+  grid-column: 3 / 4; 
+  grid-row: 2 / 5;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.trail-left-img { 
+  grid-column: 1 / 2; 
+  grid-row: 5 / 6;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.trail-paragraph-2 { 
+  grid-column: 3 / 4; 
+  grid-row: 5 / 6;
+  margin: 0 50px 0 0; 
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;  
+  background-color: #A8763E;
+}
+
+.footer-text {
+  grid-column: 1 / 2; 
+  grid-row: 1 / 2;
+  font-style: italic;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: .4pt;
+  margin-left: 20px;
+}
+
+.social-images {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: right;
+  padding-top: .5em;
+  padding-right: .5em;
+}
+
+@media screen and (max-width: 550px) {
+  .home-grid {
+    display: block;
+    clear: both;
+    }
+}

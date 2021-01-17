@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
+body {
+  max-width: 800px;
+  margin: auto;
+}
+
+header, footer {
+  font-family: "Roboto", Helvetica, sans-serif;
+  background-color: #5d5c61;    
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+header {
+  height: 100px;
+}
+
+main {
+  font-family: "Lato", Helvetica, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  margin: 2px 0;
+  padding-top: 10px;
+}
+
+img {
+  margin-top: 5px;
+  margin-right: 20px;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  height: 250px;
+  width: auto;
+}
+
+footer {
+  height: 60px;
+}
+
+footer p { 
+  margin: 1px;
+  padding: 2px;
+}
+
+footer p a {
+  color: white;
+}

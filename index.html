@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WDD 230 Assignment Portal Home Page</title>
-    <meta name="description" content="This is the assignment portal for Ken Tolman - WDD 230 Web Frontend Development at BYU-Idaho.">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
+    <title>WDD 230: Assignment Portal Home Page</title>
+    <meta name="description"
+        content="This is the assignment portal for Ken Tolman - WDD 230 Web Frontend Development at BYU-Idaho.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <body>
+<body>
     <header>
-      <img scr="images/krt1.jpg" alt="Ken Tolman">
-      <h1>Ken Tolman</h1>
+        <img src="images/ken.jpg" alt="Ken Tolman's Photo">
+        <h1>Ken Tolman</h1>
     </header>
+
     <main>
-      <h2>WDD 230: Assignment Portal</h2>
-      <hr>
-      <ul>
-        <li>Lesson 02: <a href="#">Assignment Link</a></li>
-      </ul>
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr>
+        <ul>
+            <li>Lesson 02: <a href="#">Assignment Link</a></li>
+            <li>Lesson 03: <a href="#">Assignment Link</a></li>
+            <li>Lesson 04: <a href="#">Link | Link</a></li>
+        </ul>
+        <br>
     </main>
+
     <footer>
-      &copy;2021 | Ken Tolman | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
-      <br/>Last Updated: <span id="updated"></span>	
+        <p>
+            &copy; <span id="currentYear"></span> | Ken Tolman | Utah | <a href="https://www.byui.edu/online"
+                target="_blank">BYUI Online Learning</a>
+        </p>
+        <p>
+            Last Updated: <span id="lastUpdated"></span>
+        </p>
     </footer>
-  </body>
+
+    <script src="js/dates.js"></script>
+
+</body>
 
 </html>
